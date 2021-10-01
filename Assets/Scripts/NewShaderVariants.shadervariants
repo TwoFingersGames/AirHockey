@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9104, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _CHROMATIC_ABERRATION _DEPTH_NO_MSAA
+          _FILM_GRAIN
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _CHROMATIC_ABERRATION _DEPTH_NO_MSAA
+          _FILM_GRAIN
+        passType: 0
+      - keywords: _BLOOM_LQ _CHROMATIC_ABERRATION _FILM_GRAIN
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _BLOOM_LQ _CHROMATIC_ABERRATION
+          _FILM_GRAIN
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _BLOOM_LQ _CHROMATIC_ABERRATION _DEPTH_NO_MSAA
+          _FILM_GRAIN
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _BLOOM_LQ _CHROMATIC_ABERRATION
+          _DEPTH_NO_MSAA _FILM_GRAIN
+        passType: 0
+  - first: {fileID: 4800000, guid: a15b78cf8ca26ca4fb2090293153c62c, type: 3}
+    second:
+      variants:
+      - keywords: _UNIT_DISTANCE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _UNIT_DISTANCE
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _EMISSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _EMISSION
+        passType: 13
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: _EMISSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _EMISSION
+        passType: 13
+  - first: {fileID: 4800000, guid: 5f1864addb451f54bae8c86d230f736e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 3739e562a03fc0b4982d8aa66cc50865, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ALPHATEST_ON
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ALPHATEST_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ALPHATEST_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ALPHATEST_ON
+          _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _ALPHATEST_ON
+          _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: 38f62d38eebe79c418d9572823b61386, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3818b9ab8df317a4283de6940b594723, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 78ac6c44194fb734195d6049bcfaee71, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: bc93937138cb1054e98cf187d5a71cbb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5df6daab6a21e1b4a8730bacdb8bdeec, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cd270bc83dc0ce644bf351c3f5b7f30f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cf54b891824069c4885640817c5091d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
